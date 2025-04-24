@@ -1,3 +1,3 @@
 # auto-website
 
-this repo is to share code as a new learner with others
+this repo is to store code as a new learner
