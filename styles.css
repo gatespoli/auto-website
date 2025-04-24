@@ -1,0 +1,125 @@
+<style>
+
+	body {	color : snow ;
+				width : 100% ;
+			}
+	h1 { 		text-align: center ; 
+				color : purple ; 
+				}
+	h2 {	
+				color : mediumvioletred ; 
+				}
+	
+				
+/* biography */
+p#bio-container  {
+    text-align: justfy;
+	 color: darkslateblue
+	}
+	
+span.spread { letter-spacing: 0.5em; 
+	  color: pink;}
+				
+/* youtube link */
+.youtube-link {
+    text-align: left;
+	 
+    margin-top: 40px;
+}
+
+.youtube-link a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: lavender;
+    color: maroon;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.youtube-link a:hover {
+    background-color: #e13e3e;
+    transform: scale(1.05);
+}
+				
+
+/* email form */
+.email-me {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff0f5;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5d3a58;
+    text-align: center;
+}
+
+.email-me h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #a052aa;
+}
+
+.email-me p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.email-me input,
+.email-me textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e6c7dd;
+    border-radius: 10px;
+    font-size: 1em;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.email-me input:focus,
+.email-me textarea:focus {
+    outline: none;
+    border-color: #d88bc0;
+    background-color: #fff5fa;
+}
+
+.email-me button {
+    background-color: #d88bc0;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-me button:hover {
+    background-color: #c270ae;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+.email-me button:hover {
+    background-color: #c270ae;
+    animation: bounce 0.4s ease;
+}
+	
+	
+</style>
+
+
